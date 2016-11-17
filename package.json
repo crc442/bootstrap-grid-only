@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "sass --update scss:dist",
+    "build": "sass --update scss:dist && sass --scss -t compressed --update dist/bootstrap-grid-only.css:dist/bootstrap-grid-only.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
